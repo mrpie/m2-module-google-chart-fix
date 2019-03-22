@@ -1,6 +1,6 @@
 var config = {
     paths: {
         'google-charts': 'https://www.gstatic.com/charts/loader',
-        'onilabGoogleCharts': 'Onilab_Backend/js/charts'
+        'onilabGoogleCharts': 'Onilab_GoogleChartsFix/js/charts'
     }
 };

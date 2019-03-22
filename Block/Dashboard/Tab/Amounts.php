@@ -22,7 +22,7 @@ class Amounts extends \Magento\Backend\Block\Dashboard\Tab\Amounts
      */
     protected function _construct()
     {
-        $this->setTemplate('Onilab_Backend::dashboard/graph.phtml');
+        $this->setTemplate('Onilab_GoogleChartsFix::dashboard/graph.phtml');
         parent::_construct();
     }
 

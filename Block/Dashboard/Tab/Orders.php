@@ -23,7 +23,7 @@ class Orders extends \Magento\Backend\Block\Dashboard\Tab\Orders
      */
     protected function _construct()
     {
-        $this->setTemplate('Onilab_Backend::dashboard/graph.phtml');
+        $this->setTemplate('Onilab_GoogleChartsFix::dashboard/graph.phtml');
         parent::_construct();
     }
 

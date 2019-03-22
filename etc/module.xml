@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+ * Onilab GoogleChartFix
+ *
+ * @category   Onilab
+ * @package    Onilab_GoogleChartFix
+ * @version    1.0.0
+ *
+ * Release with version 1.0.0
+ *
+ * @author     Onilab https://onilab.com/
+ * @copyright  Copyright (c) 2019 Onilab LLC
+ -->
+<config>
+     <module name="Onilab_GoogleChartsFix" setup_version="1.0.0" active="true"/>
+</config> 

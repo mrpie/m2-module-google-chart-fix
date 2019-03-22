@@ -14,6 +14,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Onilab_GoogleChartsFix',
+    'Onilab_GoogleChartFix',
     __DIR__
 );

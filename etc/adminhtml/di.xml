@@ -12,6 +12,6 @@
  * @copyright  Copyright (c) 2019 Onilab LLC
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-	<preference for="Magento\Backend\Block\Dashboard\Tab\Orders" type="Onilab\GoogleChartsFix\Block\Dashboard\Tab\Orders" />
-	<preference for="Magento\Backend\Block\Dashboard\Tab\Amounts" type="Onilab\GoogleChartsFix\Block\Dashboard\Tab\Amounts" />
+	<preference for="Magento\Backend\Block\Dashboard\Tab\Orders" type="Onilab\GoogleChartFix\Block\Dashboard\Tab\Orders" />
+	<preference for="Magento\Backend\Block\Dashboard\Tab\Amounts" type="Onilab\GoogleChartFix\Block\Dashboard\Tab\Amounts" />
 </config>

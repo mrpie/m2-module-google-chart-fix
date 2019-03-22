@@ -12,7 +12,7 @@
  * @copyright  Copyright (c) 2019 Onilab LLC
  */
 
-namespace Onilab\GoogleChartsFix\Block\Dashboard\Tab;
+namespace Onilab\GoogleChartFix\Block\Dashboard\Tab;
 
 class Orders extends \Magento\Backend\Block\Dashboard\Tab\Orders
 {
@@ -23,7 +23,7 @@ class Orders extends \Magento\Backend\Block\Dashboard\Tab\Orders
      */
     protected function _construct()
     {
-        $this->setTemplate('Onilab_GoogleChartsFix::dashboard/graph.phtml');
+        $this->setTemplate('Onilab_GoogleChartFix::dashboard/graph.phtml');
         parent::_construct();
     }
 

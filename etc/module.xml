@@ -11,6 +11,6 @@
  * @author     Onilab https://onilab.com/
  * @copyright  Copyright (c) 2019 Onilab LLC
  -->
-<config>
-     <module name="Onilab_GoogleChartsFix" setup_version="1.0.0" active="true"/>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+     <module name="Onilab_GoogleChartsFix" setup_version="1.0.0"/>
 </config> 

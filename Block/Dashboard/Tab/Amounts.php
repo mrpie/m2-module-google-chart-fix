@@ -16,24 +16,6 @@ namespace Onilab\GoogleChartFix\Block\Dashboard\Tab;
 class Amounts extends \Magento\Backend\Block\Dashboard\Tab\Amounts
 {
     /**
-     * @param \Magento\Backend\Block\Template\Context $context
-     * @param \Magento\Reports\Model\ResourceModel\Order\CollectionFactory $collectionFactory
-     * @param \Magento\Backend\Helper\Dashboard\Data $dashboardData
-     * @param \Magento\Backend\Helper\Dashboard\Order $dataHelper
-     * @param array $data
-     */
-    public function __construct(
-        \Magento\Backend\Block\Template\Context $context,
-        \Magento\Reports\Model\ResourceModel\Order\CollectionFactory $collectionFactory,
-        \Magento\Backend\Helper\Dashboard\Data $dashboardData,
-        \Magento\Backend\Helper\Dashboard\Order $dataHelper,
-        array $data = []
-    ) {
-//        $this->_dataHelper = $dataHelper;
-        parent::__construct($context, $collectionFactory, $dashboardData, $dataHelper, $data);
-    }
-
-    /**
      * Initialize object
      *
      * @return void

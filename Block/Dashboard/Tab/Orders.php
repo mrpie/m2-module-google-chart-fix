@@ -17,31 +17,6 @@ namespace Onilab\GoogleChartsFix\Block\Dashboard\Tab;
 class Orders extends \Magento\Backend\Block\Dashboard\Tab\Orders
 {
     /**
-     * @var \Onilab\Backend\Helper\Chart
-     */
-//    protected $chartHelper;
-
-    /**
-     * @param \Magento\Backend\Block\Template\Context $context
-     * @param \Magento\Reports\Model\ResourceModel\Order\CollectionFactory $collectionFactory
-     * @param \Magento\Backend\Helper\Dashboard\Data $dashboardData
-     * @param \Magento\Backend\Helper\Dashboard\Order $dataHelper
-     * @param array $data
-     */
-    public function __construct(
-        \Magento\Backend\Block\Template\Context $context,
-        \Magento\Reports\Model\ResourceModel\Order\CollectionFactory $collectionFactory,
-        \Magento\Backend\Helper\Dashboard\Data $dashboardData,
-        \Magento\Backend\Helper\Dashboard\Order $dataHelper,
-//        \Onilab\Backend\Helper\Chart $chartHelper,
-        array $data = []
-    ) {
-//        $this->chartHelper = $chartHelper;
-
-        parent::__construct($context, $collectionFactory, $dashboardData, $dataHelper, $data);
-    }
-
-    /**
      * Initialize object
      *
      * @return void

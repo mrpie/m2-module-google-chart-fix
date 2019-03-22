@@ -1,9 +1,6 @@
 {
     "name": "mrpie/module-google-chart-fix",
     "description": "Onilab Google Charts Fix",
-    "require": {
-        "php": ">=5.6.5"
-    },
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [

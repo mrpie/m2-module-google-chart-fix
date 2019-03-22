@@ -12,6 +12,7 @@
  * @copyright  Copyright (c) 2019 Onilab LLC
  -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="Magento\Backend\Block\Dashboard" type="Onilab\Backend\Block\Dashboard" />
 	<preference for="Magento\Backend\Block\Dashboard\Diagrams" type="Onilab\Backend\Block\Dashboard\Diagrams" />
 	<preference for="Magento\Backend\Block\Dashboard\Tab\Orders" type="Onilab\Backend\Block\Dashboard\Tab\Orders" />
 	<preference for="Magento\Backend\Block\Dashboard\Tab\Amounts" type="Onilab\Backend\Block\Dashboard\Tab\Amounts" />
